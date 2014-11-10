@@ -26,7 +26,7 @@
 		font-weight: 300;
 		font-size: 20pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: rgba(255,255,255,0.9);
 		letter-spacing: 0.5px;
 	}
 
@@ -1041,7 +1041,7 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255,255,255,0.95);
+		background: rgba(0,0,0,0.6);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
@@ -1053,7 +1053,7 @@
 
 	#logo {
 		position: absolute;
-		left: 1em;
+		left: 26%;
 		top: 0;
 		height: 3em;
 		line-height: 3em;
@@ -1066,7 +1066,7 @@
 	
 	#nav {
 		position: absolute;
-		right: 0.5em;
+		right: 15%;
 		top: 0;
 		height: 3em;
 		line-height: 3em;
