@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 /*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);*/
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.2.0');src:url('font/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('font/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('font/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.2.0');src:url('font/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('font/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('font/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');font-weight:lighter;font-style:normal}
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -23,15 +23,15 @@
 
 	body,input,textarea,select {
 		font-family: 'Ping Hei', sans-serif;
-		font-weight: 300;
+		font-weight: 100;
 		font-size: 20pt;
 		line-height: 1.75em;
-		color: rgba(255,255,255,0.9);
+		color: rgba(0,0,0,0.9);
 		letter-spacing: 0.5px;
 	}
 
 	h1,h2,h3,h4,h5,h6 {
-		font-weight: 900;
+		font-weight: 100;
 		color: inherit;
 	}
 	
@@ -45,9 +45,14 @@
 		letter-spacing: -2px;
 		line-height: 1.25em;
 	}
+        h2 small{
+            font-size: 60%;
+            letter-spacing: -2px;
+            line-height: 1.25em;
+        }
 		
 	strong, b {
-		font-weight: 900;
+		font-weight: normal;
 		color: inherit;
 	}
 	
@@ -355,7 +360,7 @@
 				
 				table.default th {
 					text-align: left;
-					font-weight: 900;
+					font-weight: normal;
 					padding: 0.5em 1em 0.5em 1em;
 				}
 			
@@ -618,7 +623,7 @@
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
-			font-weight: normal;
+			font-weight:lighter;
 			line-height: 1;
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
@@ -1053,11 +1058,12 @@
 
 	#logo {
 		position: absolute;
-		left: 26%;
+		left: 15%;
 		top: 0;
 		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
+        color: rgba(255,255,255,0.9);
 	}
 	
 		#logo a {
@@ -1070,6 +1076,7 @@
 		top: 0;
 		height: 3em;
 		line-height: 3em;
+        color: rgba(255,255,255,0.9);
 	}
 
 		#nav ul {
@@ -1091,6 +1098,14 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 				}
+                #nav ul li a:hover {
+					opacity: 0.5;
+				}
+                    #nav ul li a span{
+					color: #08c;
+                    font-size: 120%;
+				}
+
 
 /*********************************************************************************/
 /* Intro                                                                         */
