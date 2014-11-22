@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'PingHei';
+    font-style: lighter;
+    font-weight: 200;
+    src: url("../fonts/PingHei-light.woff") format("woff"), url("../fonts/PingHei-light.ttf") format("truetype");
+    *src: url('');
+    /* Copyright (c) 2000-2008, Changzhou SinoType Technology Co., Ltd.  All rights reserved. */
+}
+/*****************************************************************************
+
+navbar
+
+*/
+.navbar{
+    background: transparent;
+    border: 0 !important;
+	height:auto;
+}
+#navbar{
+ 	position:relative;
+    z-index: 9999;
+    min-width: 1010px;
+    font-size: 18px;
+	height:2.55556em;
+    margin: 0 auto 1em;
+	background-color:rgba(0,0,0,0.6);
+}
+#nav-container
+{
+	width:80%;
+    margin: 0 auto;
+}
+    .navbar-default .navbar-nav>li>a{
+        font-weight: 100;
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>li>a:hover{
+        color: #ccc;
+    }
+/*****************************************************************************
+
+main
+
+*/
+html {
+    font-family: 'PingHei';
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+#main{
+    font-family: 'PingHei';
+    width: 100%;
+    overflow: hidden;
+    transition: none;
+    color: #333;
+}
+#main h1{
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+    margin-left: -2px;
+    font-size: 4.2em;
+    font-weight: 100;
+    line-height: 1.1;
+    margin: 0 0  0.5em 0;
+    padding: 0;
+}
+#main h1 small{
+    display: block;
+    color: #333;
+    font-weight: 100;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+    margin-left: 3px;
+    font-size: 33px;
+    line-height: 1.1;
+}
+#main h2{
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-left: -2px;
+    font-size: 3.21em;
+    font-weight: 100;
+    line-height: 1.1;
+    margin: 0 0  0.5em 0;
+    padding: 0;
+}
+#main p{
+    font-size: 1.37em;
+    margin: 0 0 1em 0;
+    padding: 0;
+    display: block;
+    line-height: 1.5888em;
+    font-weight: 100;
+}
+/*****************************************************************************
+
+subnav
+
+*/
+.subnav{
+    display: block;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    max-width: none;
+    overflow: visible;
+    border-bottom: none;
+    z-index: 11;
+}
+.localnav{
+    border-bottom: 1px solid #d6d6d6;
+    margin: 1em auto 0;
+    display: block;
+}
+.sub-head{
+    position: relative;
+    z-index: 12;
+    width: 980px;
+    height: 56px;
+    margin: 0 auto;
+}
+.lefthead{
+    float:left;
+    width: 40%;
+    font-size: 33px;
+    font-weight: 100;    
+}
+.righthead{
+    float: left;
+    width: 50%;
+}
+    .righthead ul{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        list-style: disc;
+    }
+        .righthead ul li{
+            list-style: none;
+            position: relative;
+            min-height: 2px;
+
+            float: right;
+            width: 25%;
+            display: list-item;
+            text-align: -webkit-match-parent;
+            
+            font-size: 19px;
+            font-weight: 100;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+/*****************************************************************************
+
+section
+
+*/
+.section{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.section-content{
+    width: 980px;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-copy{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.section-copy .intro{
+    max-width: 417px;
+    font-size: 1.8em;
+    line-height: 1.3;
+    font-weight: 100;
+    margin-bottom: 36px;
+}
+/*****************************************************************************
+
+slogan
+
+*/
+#slogan-wrapper{
+    position: relative;
+    z-index: 2;
+    border-bottom: 4px solid #fff;
+    height: 78%;
+    margin-top: -64px;
+    min-height: 621px;
+    display: block;
+}
+    #slogan-b {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 3;
+        left: 0;
+        overflow: hidden;
+        
+    }
+    #slogan-img{
+        background-image: url('../img/tent_large.jpg');
+        height: 100%;
+        width: 100%;
+        background-size: cover !important;
+        background-position: 50% 100%;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }        
+    #slogan-word {
+        position: relative;
+        pointer-events: none;
+        margin-top: 0;
+        z-index: 6;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display:table;
+    }
+        #slogan-word .copy{
+            position: relative;
+            width: 100%;
+            display: table-cell;
+            vertical-align: middle;
+            z-index: 3;
+        }
+        #slogan-word .copy h1#slogan{
+            color: #fff;
+            text-align: center;
+            font-size: 68px;
+            font-weight: 100;
+            line-height: 1.1;
+            letter-spacing: 1px;
+            font-weight: 100;
+        }
+/*****************************************************************************
+
+intro
+
+*/
+#intro{
+    border-bottom: 4px solid #fff;
+    display: block;
+}
+    #intro ul{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+        list-style: disc;
+    }
+        #intro ul li{
+            list-style: none;
+            position: relative;
+            z-index: 1;
+            min-height: 2px;
+            margin: 0;
+            padding: 0;
+            float: left;
+            width: 25%;
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+        #intro1 {
+            background-image: url("../img/promo_imac_large.jpg");
+            background-repeat: no-repeat;
+            background-size: 639px 200px;
+            border-left: none;
+            display: block;
+            min-height: 200px;
+            border-right: 2px solid #fff;
+            background-position: top center;
+        }
+        #intro2 {
+            background-image: url("../img/promo_ipad_large.jpg");
+            background-repeat:  no-repeat;
+            background-size: 639px 200px;
+            border-left: none;
+            display: block;
+            min-height: 200px;
+            border-right: 2px solid #fff;
+            background-position: top center;
+
+        }
+        #intro3 {
+            background-image: url("../img/promo_iphone6_large.jpg");
+            background-repeat:  no-repeat;
+            background-size: 639px 200px;
+            border-left: none;
+            display: block;
+            min-height: 200px;
+            border-right: 2px solid #fff;
+            background-position: top center;
+
+        }
+        #intro4 {
+            background-image: url("../img/promo_watch_large.jpg");
+            background-repeat:  no-repeat;
+            background-size: 639px 200px;
+            border-left: none;
+            display: block;
+            min-height: 200px;
+            border-right: none;
+            background-position: top center;
+
+        }
+    .intro-img{
+        background-image: url(../img/hero_large.png);
+        background-repeat: no-repeat;
+        background-size: 542px 936px;
+        width: 542px;
+        margin-top: 50px;
+        height: 696px;
+        display: block;
+    }
+/*****************************************************************************
+
+carousel
+
+*/
+#gallery-leather{
+    position: relative;
+    height: 872px width 1002px;
+    margin-left: -11px;
+    margin-bottom: 50px;
+    display: block;
+}
+feather{
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.leather-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/pg/black.jpg);
+}
+.leather-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/pg/bg.png);
+}
+.leather-iphone-6-blue-case-image{
+    background-image: url(../img/pro/6/pg/blue.jpg);
+}
+.leather-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/pg/mi.jpg);
+}
+.leather-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/pg/red.png);
+}
+
+silicone-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/gj/black.jpg);
+}
+silicone-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/gj/black.jpg);
+}
+silicone-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/gj/black.jpg);
+}
+silicone-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/gj/black.jpg);
+}
+silicone-iphone-6-black-case-image{
+    background-image: url(../img/pro/6/gj/black.jpg);
+}
+/*****************************************************************************
+
+footer
+
+*/
+
+#footer_wrapper{
+    clear:both;
+    background: #fff;
+    margin: 0 auto;
+    padding: 1em 22px;
+    display: block;
+}
+.footer-global{
+    max-width: 980px;
+    padding:18px 0;
+    margin: 0 auto;
+    color: #999999;
+    line-height: 1;
+    font-size: 1em;
+    display: table;
+}
+.footer-shop{
+    margin-bottom: 0.6667em;
+    float: left;
+}
+.footer-links{
+    display: table;
+    float: right;
+    font-size: 12px;
+    line-height: 1.33333;
+    font-weight: 100;
+    width: auto;
+    margin: 0 0.5em 0.6667em 1em;
+}
+ul.footer-links{
+    margin: 1em 0 1em 1.11111em;
+    display: block;
+    list-style-type: disc;
+}
+.footer-links>li{
+    display: inline-block;
+    margin-left: 0;
+}
