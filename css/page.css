@@ -1,0 +1,2226 @@
+.page-accessories .gallery-cases {
+    position: relative;
+    height: 872px;
+    width: 1002px;
+    margin-left: -11px;
+    margin-bottom: 50px
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .gallery-cases {
+        height: 623px;
+        width: 716px;
+        margin-left: -9px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .gallery-cases {
+        height: 288px;
+        width: 331px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) and (max-width: 320px) {
+    html.touch .page-accessories .gallery-cases {
+        margin-left: -22px
+    }
+}
+
+.page-accessories .gallery-cases figure {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.page-accessories .gallery-content {
+    z-index: 1
+}
+
+.page-accessories .gallery-cases figure {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.page-accessories .accessories-thumbnav-border {
+    width: 283px;
+    height: 0;
+    border-top: 1px solid #d6d6d6;
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+
+.page-accessories .thumbnav {
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 40px;
+    width: 100%
+}
+
+.page-accessories .phones-toggle li {
+    margin: 0 10px
+}
+
+.page-accessories .phones-toggle a {
+    color: #333
+}
+
+.page-accessories .phones-toggle a.current {
+    color: #969696
+}
+
+.page-accessories .phones-toggle a:visited, .page-accessories .phones-toggle a:link, .page-accessories .phones-toggle a:active {
+    text-decoration: none
+}
+
+.page-accessories .color-picker li {
+    margin: 0 15px
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .color-picker li {
+        margin: 0 6px
+    }
+}
+
+.page-accessories .color-picker li .red {
+    margin-bottom: -8px;
+    margin-left: -3px;
+    display: block;
+    font-size: .9em
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .color-picker li .red {
+        margin-left: -1px
+    }
+}
+
+.page-accessories .color-picker li .red sup {
+    font-weight: 800
+}
+
+.page-accessories .color-picker li .red-trigger {
+    display: block;
+    margin-top: 15px
+}
+
+.page-accessories .gallery-trigger {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    -webkit-transition: box-shadow 500ms ease;
+    transition: box-shadow 500ms ease;
+    font: 0/0 a;
+    color: transparent;
+    margin-top: 32px
+}
+
+html.oldie .page-accessories .gallery-trigger {
+    display: inline;
+    zoom: 1
+}
+
+.page-accessories .gallery-trigger-beige {
+    background: #e6d5cc;
+    box-shadow: inset 0 0 0 3px rgba(213, 185, 170, 0)
+}
+
+.page-accessories .gallery-trigger-beige:hover, .page-accessories .gallery-trigger-beige.current {
+    box-shadow: inset 0 0 0 3px #d5b9aa
+}
+
+.page-accessories .gallery-trigger-brown {
+    background: #77675c;
+    box-shadow: inset 0 0 0 3px rgba(90, 78, 70, 0)
+}
+
+.page-accessories .gallery-trigger-brown:hover, .page-accessories .gallery-trigger-brown.current {
+    box-shadow: inset 0 0 0 3px #5a4e46
+}
+
+.page-accessories .gallery-trigger-black {
+    background: #000;
+    box-shadow: inset 0 0 0 3px transparent
+}
+
+.page-accessories .gallery-trigger-black:hover, .page-accessories .gallery-trigger-black.current {
+    box-shadow: inset 0 0 0 3px #000
+}
+
+.page-accessories .gallery-trigger-blue {
+    background: #5ac7e6;
+    box-shadow: inset 0 0 0 3px rgba(46, 184, 223, 0)
+}
+
+.page-accessories .gallery-trigger-blue:hover, .page-accessories .gallery-trigger-blue.current {
+    box-shadow: inset 0 0 0 3px #2eb8df
+}
+
+.page-accessories .gallery-trigger-dark-blue {
+    background: #48536f;
+    box-shadow: inset 0 0 0 3px rgba(52, 60, 80, 0)
+}
+
+.page-accessories .gallery-trigger-dark-blue:hover, .page-accessories .gallery-trigger-dark-blue.current {
+    box-shadow: inset 0 0 0 3px #343c50
+}
+
+.page-accessories .gallery-trigger-green {
+    background: #9ad439;
+    box-shadow: inset 0 0 0 3px rgba(127, 179, 39, 0)
+}
+
+.page-accessories .gallery-trigger-green:hover, .page-accessories .gallery-trigger-green.current {
+    box-shadow: inset 0 0 0 3px #7fb327
+}
+
+.page-accessories .gallery-trigger-pink {
+    background: #f888a5;
+    box-shadow: inset 0 0 0 3px rgba(245, 88, 129, 0)
+}
+
+.page-accessories .gallery-trigger-pink:hover, .page-accessories .gallery-trigger-pink.current {
+    box-shadow: inset 0 0 0 3px #f55881
+}
+
+.page-accessories .gallery-trigger-red {
+    background: #d13c3d;
+    box-shadow: inset 0 0 0 3px rgba(176, 42, 43, 0)
+}
+
+.page-accessories .gallery-trigger-red:hover, .page-accessories .gallery-trigger-red.current {
+    box-shadow: inset 0 0 0 3px #b02a2b
+}
+
+.page-accessories .gallery-trigger-white {
+    background: #fff;
+    box-shadow: inset 0 0 0 3px rgba(230, 230, 230, 0);
+    border: 1px solid #dedede
+}
+
+.page-accessories .gallery-trigger-white:hover, .page-accessories .gallery-trigger-white.current {
+    box-shadow: inset 0 0 0 3px #e6e6e6
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero .section-copy {
+        padding-bottom: 64px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero h1 {
+        max-width: 238px
+    }
+}
+
+.page-accessories .section-hero .intro {
+    max-width: 417px
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-hero .intro {
+        max-width: 310px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero .intro {
+        max-width: none
+    }
+}
+
+.page-accessories .section-hero .image-accessories-hero {
+    background-repeat: no-repeat;
+    background-size: 542px 936px;
+    height: 936px;
+    width: 542px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_large.png");
+    margin-top: 50px;
+    height: 696px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-hero .image-accessories-hero {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-hero .image-accessories-hero {
+        background-size: 385px 665px;
+        height: 665px;
+        width: 385px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-hero .image-accessories-hero {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-hero .image-accessories-hero {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero .image-accessories-hero {
+        background-size: 288px 328px;
+        height: 328px;
+        width: 288px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero .image-accessories-hero {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_xsmall.png")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-hero .image-accessories-hero {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/hero_xsmall_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-hero .image-accessories-hero {
+        height: 665px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-hero .image-accessories-hero {
+        height: 328px;
+        margin-top: -73px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-two-boxes .section-full {
+        margin: 0;
+        width: 100%;
+        height: 198px
+    }
+}
+
+.page-accessories .section-two-boxes .section-full-left {
+    background-color: #f7f7f7
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-two-boxes .section-full-left {
+        margin: 0
+    }
+}
+
+.page-accessories .section-two-boxes .section-full-right {
+    background-color: #f7f7f7
+}
+
+.page-accessories .section-compare figure {
+    top: 54px;
+    position: relative
+}
+
+.page-accessories .section-compare .compare-blackleather-image {
+    background-repeat: no-repeat;
+    background-size: 636px 414px;
+    height: 414px;
+    width: 636px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_large.jpg");
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-compare .compare-blackleather-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-compare .compare-blackleather-image {
+        background-size: 450px 293px;
+        height: 293px;
+        width: 450px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-compare .compare-blackleather-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-compare .compare-blackleather-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-compare .compare-blackleather-image {
+        background-size: 289px 188px;
+        height: 188px;
+        width: 289px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-compare .compare-blackleather-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-compare .compare-blackleather-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_leather_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-compare .compare-greensilicone-image {
+    background-repeat: no-repeat;
+    background-size: 638px 416px;
+    height: 416px;
+    width: 638px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_large.jpg");
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-compare .compare-greensilicone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-compare .compare-greensilicone-image {
+        background-size: 451px 294px;
+        height: 294px;
+        width: 451px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-compare .compare-greensilicone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-compare .compare-greensilicone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-compare .compare-greensilicone-image {
+        background-size: 290px 189px;
+        height: 189px;
+        width: 290px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-compare .compare-greensilicone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-compare .compare-greensilicone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/case_detail_silicone_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-compare .caption {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    text-align: center
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-compare .caption {
+        top: 17px
+    }
+}
+
+.page-accessories .section-leather-case {
+    margin-bottom: 90px
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case {
+        margin-bottom: 40px
+    }
+}
+
+.page-accessories .section-leather-case .section-copy {
+    padding-bottom: 20px
+}
+
+.page-accessories .section-leather-case .section-copy p {
+    max-width: 600px
+}
+
+.page-accessories .section-leather-case .section-copy .more {
+    margin-right: 30px;
+    white-space: nowrap
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .section-copy .more {
+        margin-bottom: 12px;
+        display: block
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_xsmall_2x.jpg")
+    }
+}
+
+.touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+    background-repeat: no-repeat
+}
+
+@media only screen and (max-width: 1023px) {
+    .touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .touch .page-accessories .section-leather-case .leather-iphone-6-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_beige_medium_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_black_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_blue_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_brown_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_leather_red_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-beige-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_beige_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_black_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_blue_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-brown-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_brown_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-leather-case .leather-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_leather_red_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case {
+    margin-bottom: 120px
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case {
+        margin-bottom: 60px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case {
+        padding-bottom: 40px
+    }
+}
+
+.page-accessories .section-silicone-case .section-copy {
+    padding-bottom: 35px
+}
+
+.page-accessories .section-silicone-case .section-copy .more {
+    margin-right: 30px;
+    white-space: nowrap
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .section-copy .more {
+        margin-bottom: 12px;
+        display: block
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_black_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_blue_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_green_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_pink_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_red_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6_case_silicone_white_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-black-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_black_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-blue-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_blue_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-green-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_green_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-pink-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_pink_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-red-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_red_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 872px;
+    height: 872px;
+    width: 1002px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-size: 716px 623px;
+        height: 623px;
+        width: 716px
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-size: 331px 288px;
+        height: 288px;
+        width: 331px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-silicone-case .silicone-iphone-6-plus-white-case-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/iphone6plus_case_silicone_white_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-accessories .top-border {
+    border-top: 1px solid #d6d6d6
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .top-border {
+        margin-top: 10px;
+        margin-bottom: 55px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .xsmall-border-top {
+        border-top: 1px solid #d6d6d6
+    }
+}
+
+.page-accessories .section-accessories .section-copy {
+    padding-bottom: 50px
+}
+
+.page-accessories .section-accessories .accesorries-callout {
+    margin-bottom: 40px
+}
+
+.page-accessories .section-accessories .accessories-beats-phone-image {
+    background-repeat: no-repeat;
+    background-size: 854px 400px;
+    height: 400px;
+    width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_large.jpg");
+    margin-top: 58px;
+    margin-bottom: 18px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-size: 607px 284px;
+        height: 284px;
+        width: 607px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-size: 282px 132px;
+        height: 132px;
+        width: 282px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-accessories .accessories-beats-phone-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/headphones_beats_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-phone-image {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.page-accessories .section-accessories .accessories-beats-pill-image {
+    background-repeat: no-repeat;
+    background-size: 916px 310px;
+    height: 310px;
+    width: 916px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_large.jpg");
+    margin-top: 100px;
+    margin-bottom: 34px;
+    margin-left: 28px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-size: 650px 220px;
+        height: 220px;
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-size: 278px 98px;
+        height: 98px;
+        width: 278px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-accessories .accessories-beats-pill-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/speakers_beats_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-pill-image {
+        margin-bottom: 32px;
+        margin-top: 4px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.page-accessories .section-accessories .column-accessories-callout {
+    margin-bottom: 120px
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .column-accessories-callout {
+        margin-bottom: 80px
+    }
+}
+
+.page-accessories .section-accessories .column-accessories-callout p {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.page-accessories .section-accessories .column-line:before {
+    border-left: 1px solid #d6d6d6;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .column-line:before {
+        border-left: none
+    }
+}
+
+.page-accessories .section-accessories .column-line:after {
+    border-right: 1px solid #d6d6d6;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%
+}
+
+.page-accessories .section-accessories .accessories-adapter-image {
+    background-repeat: no-repeat;
+    background-size: 244px 244px;
+    height: 244px;
+    width: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_large.jpg");
+    margin-top: 51px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-adapter-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-adapter-image {
+        background-size: 173px 173px;
+        height: 173px;
+        width: 173px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-adapter-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-adapter-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-adapter-image {
+        background-size: 94px 94px;
+        height: 94px;
+        width: 94px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-adapter-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-accessories .accessories-adapter-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/adapter_xsmall_2x.jpg")
+    }
+}
+
+.page-accessories .section-accessories .accessories-earpods-image {
+    background-repeat: no-repeat;
+    background-size: 174px 260px;
+    height: 260px;
+    width: 174px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_large.jpg");
+    margin-top: 35px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-earpods-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-earpods-image {
+        background-size: 125px 187px;
+        height: 187px;
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-earpods-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-earpods-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-earpods-image {
+        background-size: 62px 92px;
+        height: 92px;
+        width: 62px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-earpods-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-accessories .accessories-earpods-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earpods_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-earpods-image {
+        margin-top: 37px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-earpods-image {
+        margin-top: 54px
+    }
+}
+
+.page-accessories .section-accessories .accessories-beats-earbuds-image {
+    background-repeat: no-repeat;
+    background-size: 174px 260px;
+    height: 260px;
+    width: 174px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_large.jpg");
+    margin-top: 35px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-size: 126px 188px;
+        height: 188px;
+        width: 126px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1023px) and (min-resolution: 144dpi), only screen and (max-width: 1023px) and (min-resolution: 144dppx) {
+    .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-size: 94px 142px;
+        height: 142px;
+        width: 94px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/earbuds_beats_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        margin-top: 37px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-accessories .accessories-beats-earbuds-image {
+        margin-top: 54px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-next {
+        min-height: 500px
+    }
+}
+
+.page-accessories .section-next h4 {
+    max-width: 300px
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-next h4 {
+        max-width: 250px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-next h4 {
+        max-width: 200px
+    }
+}
+
+.page-accessories .section-next .image-next {
+    background-repeat: no-repeat;
+    background-size: 498px 292px;
+    height: 292px;
+    width: 498px;
+    background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/next_techspecs_large.jpg");
+    margin-top: 58px;
+    margin-left: -88px
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-accessories .section-next .image-next {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/next_techspecs_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-next .image-next {
+        background-size: 289px 287px;
+        height: 287px;
+        width: 289px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-next .image-next {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/next_techspecs_xsmall.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-accessories .section-next .image-next {
+        background-image: url("http://images.apple.com/v/iphone-6/a/images/accessories/next_techspecs_xsmall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-accessories .section-next .image-next {
+        margin-left: -182px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html.touch .page-accessories .section-next .image-next {
+        margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+

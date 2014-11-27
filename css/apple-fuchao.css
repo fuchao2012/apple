@@ -111,10 +111,7 @@ subnav
     overflow: visible;
     border-bottom: none;
     z-index: 1100;
-	
-}
-.localnav{
-    border-bottom: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
     margin: 0 auto;
     display: block;
 	background-color: #fff;
@@ -162,6 +159,9 @@ subnav
 			position: fixed;
 			top: 0;
 		}
+.buylink{
+    margin-top: 16px;
+}
 
 /*****************************************************************************
 
@@ -430,16 +430,5 @@ ul.footer-links{
 .footer-links>li{
     display: inline-block;
     margin-left: 0;
-}
-.buylink {
-	padding-top: 10px;
-}
-
-.section-img {
-	display: block;
-	margin: 0 0 50px -11px;
-	position: relative;
-	min-height: 10px;
-	min-width: 1000px;
 }
 
