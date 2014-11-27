@@ -6,6 +6,9 @@
     *src: url('');
     /* Copyright (c) 2000-2008, Changzhou SinoType Technology Co., Ltd.  All rights reserved. */
 }
+*{
+font-family: 'PingHei';
+}
 /*****************************************************************************
 
 navbar
@@ -107,12 +110,14 @@ subnav
     max-width: none;
     overflow: visible;
     border-bottom: none;
-    z-index: 11;
+    z-index: 1100;
+	
 }
 .localnav{
     border-bottom: 1px solid #d6d6d6;
-    margin: 1em auto 0;
+    margin: 0 auto;
     display: block;
+	background-color: #fff;
 }
 .sub-head{
     position: relative;
@@ -129,10 +134,12 @@ subnav
 }
 .righthead{
     float: left;
+	padding-top: 12px;
     width: 50%;
 }
     .righthead ul{
-        margin: 0;
+		display: block;
+		margin: 0;
         padding: 0;
         position: relative;
         list-style: disc;
@@ -150,8 +157,11 @@ subnav
             font-size: 19px;
             font-weight: 100;
             cursor: pointer;
-            vertical-align: middle;
         }
+.stick {
+			position: fixed;
+			top: 0;
+		}
 /*****************************************************************************
 
 section
@@ -419,4 +429,15 @@ ul.footer-links{
 .footer-links>li{
     display: inline-block;
     margin-left: 0;
+}
+.buylink {
+	padding-top: 10px;
+}
+
+.section-img {
+	display: block;
+	margin: 0 0 50px -11px;
+	position: relative;
+	min-height: 10px;
+	min-width: 1000px;
 }
