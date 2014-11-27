@@ -19,7 +19,3 @@ $(document).ready(function () {
 		}
 	});
 });
-
-function change(){
-	document.getElementById("").
-}
