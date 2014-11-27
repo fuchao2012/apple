@@ -162,6 +162,7 @@ subnav
 			position: fixed;
 			top: 0;
 		}
+
 /*****************************************************************************
 
 section
@@ -441,3 +442,4 @@ ul.footer-links{
 	min-height: 10px;
 	min-width: 1000px;
 }
+
