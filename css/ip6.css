@@ -3623,21 +3623,21 @@ html.oldie .section .section-content {
 }
 
 .section-copy {
-    padding-top: 150px;
-    padding-bottom: 100px
+    padding-top: 30px;
+    padding-bottom: 40px
 }
 
 @media only screen and (max-width: 1023px) {
     .section-copy {
-        padding-top: 125px;
-        padding-bottom: 80px
+        padding-top: 30px;
+        padding-bottom: 40px
     }
 }
 
 @media only screen and (max-width: 767px) {
     html.touch .section-copy {
-        padding-top: 100px;
-        padding-bottom: 60px
+        padding-top: 30px;
+        padding-bottom: 40px
     }
 }
 
