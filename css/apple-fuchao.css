@@ -27,6 +27,7 @@ navbar
 	height:2.55556em;
     margin: 0 auto;
 	background-color:rgba(0,0,0,0.6);
+    text-align: center;
 }
 #nav-container
 {
@@ -36,7 +37,7 @@ navbar
     .navbar-default .navbar-nav>li>a{
         font-weight: 100;
         color: #fff;
-        width: 138px;
+        min-width: 138px;
     }
     .navbar-default .navbar-nav>li>a:hover{
         color: #ccc;
@@ -120,7 +121,7 @@ subnav
 .sub-head{
     position: relative;
     z-index: 12;
-    width: 980px;
+    width: 1002px;
     height: 56px;
     margin: 0 auto;
 }
@@ -176,7 +177,7 @@ section
     background-color: #fff;
 }
 .section-content{
-    width: 980px;
+    width: 1002px;
     position: relative;
     z-index: 1;
     margin-left: auto;
@@ -364,36 +365,62 @@ carousel
     display: block;
     overflow: hidden;
 }
-.leather-iphone-6-black-case-image{
-    background-image: url(../img/pro/6/pg/black.jpg);
+#gallery-private{
+    position: relative;
+    margin-left: -11px;
+    height: 600px;
+    margin-bottom: 50px;
+    display:block;
+    overflow: hidden;
 }
-.leather-iphone-6-z-case-image{
-    background-image: url(../img/pro/6/pg/z.jpg);
+.page-accessories .section-hero .image-accessories-hero-private {
+    background-repeat: no-repeat;
+    background-size: 542px 936px;
+    width: 542px;
+    background-image: url("../img/pro/dz/6.jpg");
+    margin-top: 50px;
+    height: 696px
 }
-.leather-iphone-6-blue-case-image{
-    background-image: url(../img/pro/6/pg/blue.jpg);
+.page-accessories .section-leather-case .leather-private-1-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 644px;
+    height: 644px;
+    width: 1002px;
+    background-image: url("../img/pro/dz/1.jpg")
 }
-.leather-iphone-6-mi-case-image{
-    background-image: url(../img/pro/6/pg/mi.jpg);
+.page-accessories .section-leather-case .leather-private-2-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 644px;
+    height: 644px;
+    width: 1002px;
+    background-image: url("../img/pro/dz/2.jpg")
 }
-.leather-iphone-6-red-case-image{
-    background-image: url(../img/pro/6/pg/red.png);
+.page-accessories .section-leather-case .leather-private-3-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 644px;
+    height: 644px;
+    width: 1002px;
+    background-image: url("../img/pro/dz/3.jpg")
 }
-
-silicone-iphone-6-black-case-image{
-    background-image: url(../img/pro/6/gj/black.jpg);
+.page-accessories .section-leather-case .leather-private-4-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 644px;
+    height: 644px;
+    width: 1002px;
+    background-image: url("../img/pro/dz/4.jpg")
 }
-silicone-iphone-6-blue-case-image{
-    background-image: url(../img/pro/6/gj/blue.jpg);
+.page-accessories .section-leather-case .leather-private-5-beige-case-image {
+    background-repeat: no-repeat;
+    background-size: 1002px 644px;
+    height: 644px;
+    width: 1002px;
+    background-image: url("../img/pro/dz/5.jpg")
 }
-silicone-iphone-6-mi-case-image{
-    background-image: url(../img/pro/6/gj/pink.jpg);
+.thumbnav a{
+    font-size: 1.2em;
 }
-silicone-iphone-6-red-case-image{
-    background-image: url(../img/pro/6/gj/red.jpg);
-}
-silicone-iphone-6-white-case-image{
-    background-image: url(../img/pro/6/gj/white.jpg);
+.thumbnav a:hover{
+    text-decoration: none;
 }
 /*****************************************************************************
 
@@ -404,12 +431,12 @@ footer
 #footer_wrapper{
     clear:both;
     background: #fff;
-    margin: 0 auto;
+    margin:  auto;
     padding: 1em 22px;
     display: block;
 }
 .footer-global{
-    max-width: 980px;
+    max-width: 1002px;
     padding:18px 0;
     margin: 0 auto;
     color: #999999;

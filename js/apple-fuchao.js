@@ -40,4 +40,9 @@ function change_leather_plus(color){
     var target = select[1].childNodes[1];
     target.className = 'leather-iphone-6-plus-'+color.trim()+'-case-image';
 }
-
+function change_private(color){
+    var select = document.getElementById('gallery-leather-private-cases').childNodes;
+    var target = select[1].childNodes[1];
+    target.className = 'leather-private-'+color.trim()+'-beige-case-image';
+    console.log(target.className);
+}
