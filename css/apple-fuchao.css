@@ -25,7 +25,7 @@ navbar
     min-width: 1010px;
     font-size: 18px;
 	height:2.55556em;
-    margin: 0 auto 1em;
+    margin: 0 auto;
 	background-color:rgba(0,0,0,0.6);
 }
 #nav-container
@@ -218,7 +218,7 @@ slogan
         
     }
     #slogan-img{
-        background-image: url('../img/tent_large.jpg');
+        background-image: url('../img/slogan/tent_large.jpg');
         height: 100%;
         width: 100%;
         background-size: cover !important;
@@ -255,6 +255,11 @@ slogan
             letter-spacing: 1px;
             font-weight: 100;
         }
+div.item img{
+    max-height: 600px;
+    overflow: hidden;
+    padding-bottom: 1em;
+}
 /*****************************************************************************
 
 intro
@@ -414,16 +419,12 @@ footer
     float: left;
 }
 .footer-links{
-    display: table;
     float: right;
     font-size: 12px;
     line-height: 1.33333;
     font-weight: 100;
-    width: auto;
-    margin: 0 0.5em 0.6667em 1em;
 }
 ul.footer-links{
-    margin: 1em 0 1em 1.11111em;
     display: block;
     list-style-type: disc;
 }
