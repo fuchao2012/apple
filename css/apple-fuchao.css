@@ -349,7 +349,7 @@ carousel
 */
 #gallery-leather{
     position: relative;
-    height: 400px; 
+/*    height: 400px; */
     width 1002px;
     margin-left: -11px;
     margin-bottom: 50px;
@@ -358,7 +358,7 @@ carousel
 }
 #gallery-silicone{
     position: relative;
-    height: 400px; 
+/*    height: 400px; */
     width 1002px;
     margin-left: -11px;
     margin-bottom: 50px;
@@ -367,11 +367,9 @@ carousel
 }
 #gallery-private{
     position: relative;
-    margin-left: -11px;
-    height: 600px;
-    margin-bottom: 50px;
-    display:block;
-    overflow: hidden;
+    left: -220px;
+    height: 650px;
+    margin: 0 auto;
 }
 .page-accessories .section-hero .image-accessories-hero-private {
     background-repeat: no-repeat;
@@ -383,37 +381,37 @@ carousel
 }
 .page-accessories .section-leather-case .leather-private-1-beige-case-image {
     background-repeat: no-repeat;
-    background-size: 1002px 644px;
+    background-size: 1420px 644px;
     height: 644px;
-    width: 1002px;
+    width: 1420px;
     background-image: url("../img/pro/dz/1.jpg")
 }
 .page-accessories .section-leather-case .leather-private-2-beige-case-image {
     background-repeat: no-repeat;
-    background-size: 1002px 644px;
+    background-size: 1420px 644px;
     height: 644px;
-    width: 1002px;
+    width: 1420px;
     background-image: url("../img/pro/dz/2.jpg")
 }
 .page-accessories .section-leather-case .leather-private-3-beige-case-image {
     background-repeat: no-repeat;
-    background-size: 1002px 644px;
+    background-size: 1420px 644px;
     height: 644px;
-    width: 1002px;
+    width: 1420px;
     background-image: url("../img/pro/dz/3.jpg")
 }
 .page-accessories .section-leather-case .leather-private-4-beige-case-image {
     background-repeat: no-repeat;
-    background-size: 1002px 644px;
+    background-size: 1420px 644px;
     height: 644px;
-    width: 1002px;
+    width: 1420px;
     background-image: url("../img/pro/dz/4.jpg")
 }
 .page-accessories .section-leather-case .leather-private-5-beige-case-image {
     background-repeat: no-repeat;
-    background-size: 1002px 644px;
+    background-size: 1420px 644px;
     height: 644px;
-    width: 1002px;
+    width: 1420px;
     background-image: url("../img/pro/dz/5.jpg")
 }
 .thumbnav a{

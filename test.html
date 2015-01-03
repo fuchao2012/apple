@@ -1,0 +1,639 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>DIY烟花祝福语，中大奖！赶快来试试吧！</title>
+<meta name="keywords" content="DIY烟花祝福语，中大奖！赶快来试试吧！">
+<meta name="description" content="DIY烟花祝福语，中大奖！赶快来试试吧！">
+<link rel="stylesheet" href="/public/css/body.css" />
+<script src="/public/js/jquery.js"></script>
+<style>
+body {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	font-size:12px;
+}
+.city {
+	width:100%;
+	position:fixed;
+	bottom: 0px;
+	z-index: 100;
+}
+.city img {
+	width: 100%;
+}
+body,html,#cas{width:100%; height:100%;}
+</style>
+</head>
+<body onselectstart="return false">
+<div style="height:100%;overflow:hidden;">
+      <canvas id="cas" width="100%" height="100%">浏览器不支持canvas</canvas>
+<!--      <div class="city"><img src="./public/image/city.png" alt=""></div>-->
+      <img src="/public/image/bj.jpg" alt="" id="moon" style="visibility: hidden; width:100%">
+      <div style="display:none">
+    	<div class="shape">DIY 新年烟花祝福</div>
+	  </div>
+</div>
+<!--<div class="middle">
+		<div class="middle-words">
+			<span>DIY祝福语，中大奖</span>
+		</div>
+	</div>-->
+    <div class="bottom">
+	    <div class="wish">
+	        <span>填写朋友名字或祝福语，为TA送上独一无二的微信祝福，更有机会赢取礼物。</span>
+	    </div>
+	    <div class="words">
+	        <div style="float:left;width:52%;z-index:9999;"><span><input type="text" name="words" id="words"  maxlength="7"></span></div>
+	        <!-- <span><input type="submit" id="show" value="预览"></span> -->
+	        <div id="show" style="width:16%;height:38px;line-height:38px;background: rgba(96,53,106,0.5);float:left;text-align:center;cursor:pointer;font-size:1.3em;z-index:9999;">预览</div>
+	        <!-- <span><input type="submit" id="sub" value="生成"></span> -->
+	        <div id="sub" style="width:16%;height:38px;line-height:38px;background: rgba(96,53,106,0.5);float:left;text-align:center;cursor:pointer;font-size:1.3em;z-index:9999;">生成</div>
+	    </div>
+	    <div id="first">
+	    	<span><a href="http://fire.weixinapply.com/">我也制作一个祝福烟花</a></span>
+	    </div>
+	    <div class="first-click" style="display:none;top:100px;">
+				<div id="click-show">
+					<span>点击右上角，分享给朋友或朋友圈</span>
+				</div>
+			</div>
+	   	<div id="rule"> <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTU1NDg4Mw==&mid=10000003&idx=1&sn=2ca87944ee999be4c77d9843230580b0&key=2f5eb01238e84f7e37ab732a6ab4f935b0cdf63945e0a1c70fc0824dae6517d65b9c3a6fce535800e50ac778c532918b&ascene=1&uin=MzY1OTM4OTE1&devicetype=Windows-QQBrowser&version=61000c01&pass_ticket=6T9h%2BKcDw5UoehYIOZsMkUazBmYgSCzSysX7erEZEcIJiygx6mUPG8vpPFR15NiV"><img src="/public/image/gz.png" width="105" /></a><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTU1NDg4Mw==&mid=202857133&idx=1&sn=970900262e77cb5677d67aaa62d87da1#rd"><img src="/public/image/hd.png" width="105" /></a></div>
+	</div>
+<div class="msg">
+    <div class="forms">
+        <form>
+            <p id="win">恭喜你，中奖啦！！<br>电影券一张</p>
+            <p><span>姓&nbsp;&nbsp; &nbsp;名</span><input type="text" name="username" class="username"></p>
+            <p><span>手&nbsp;&nbsp; &nbsp;机</span><input type="text" name="phone" class="username"></p>
+            <p><span>微信号</span><input type="text" name="wxnum" class="username"></p>
+            <p><span><input type="hidden" value="" id="giftname" name="giftname"></span></p>
+            <p style="text-align:left;float:left;width:43%;height:38px;margin-left:0px;"><input type="submit" value="提交" class="tijiao"></p>
+       </form>
+       		<div style="float:right;width:43%;height:38px;margin-right:0px;text-align:right;margin-left:1%;"><button class="cancel">放弃</button></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+$(".cancel").click(function(){
+	$(".msg").hide()
+})
+
+
+var times;
+$.ajax({url:'/index.php/welcome/select',success:function(data){
+
+times=data;
+
+},error:function(){alert('error')}})
+
+$("#sub").click(function(){
+
+var words=$("#words").val()
+if(times<=1){
+$.ajax({url:'/index.php/welcome/dodemo',type:'post',success:function(datas){
+    if(datas!==''){
+        alert('你中奖了')
+        $("#win").text('恭喜你中了'+datas+'等奖')
+        $("#giftname").val(datas)   
+        $(".msg").css('display','block')
+
+    }else{
+    	$.ajax({url:'/index.php/welcome/change',type:"post",data:{words:words},success:function(datas){window.location.href="http://fire.weixinapply.com/?words="+datas}})
+    }}
+})
+}else{
+$.ajax({url:'/index.php/welcome/change',type:"post",data:{words:words},success:function(datas){window.location.href="http://fire.weixinapply.com/?words="+datas}})
+// $(".default").css('display','none')
+$(".wish-words").text(words)
+$(".show-words").fadeIn(1000)
+$(".wish-words").animate({fontSize:'2.5em'},2000)}
+})
+
+$("#show").click(function(){
+var words=$("#words").val()
+$('.shape').text(words);
+$('.middle').remove();
+
+})
+
+$('input[class="tijiao"]').click(function(e){
+
+	var words=$("#words").val()
+	$.ajax({
+		url : '/index.php/welcome/addwin',
+		data : {
+			username : $('input[name="username"]').val() || '',
+			phone : $('input[name="phone"]').val() || '',
+			wxnum : $('input[name="wxnum"]').val() || '',
+			giftname : $('input[name="giftname"]').val() || '',
+		},
+		type : 'post',
+		dataType : 'json',
+		success : function(res){
+			if(res.succ==1){
+				alert('记录成功')
+				$(".msg").hide()
+				window.location.href="http://fire.weixinapply.com/?words="+words
+			}else{
+				alert('记录失败')
+				$(".msg").hide()
+				window.location.href="http://fire.weixinapply.com/?words="+words
+			}
+		}
+	})
+	return false;
+	
+})
+</script>
+
+<script>
+	function queryUrl(url, key) {
+		url = url.replace(/^[^?=]*\?/ig, '').split('#')[0]; 
+		var json = {};
+		
+		url.replace(/(^|&)([^&=]+)=([^&]*)/g, function(a, b, key, value) {
+			try {
+				key = decodeURIComponent(key);
+			} catch (ex) {
+
+			}
+			try {
+				value = decodeURIComponent(value);
+			} catch (e) {
+
+			}
+			if (!(key in json)) {
+				json[key] = /\[\]$/.test(key) ? [value] : value; //如果参数名以[]结尾，则当作数组
+			} else if (json[key] instanceof Array) {
+				json[key].push(value);
+			} else {
+				json[key] = [json[key], value];
+			}
+		});
+		return key ? json[key] : json;
+	}
+	window.queryUrl = queryUrl;
+	$(document).ready(function(){
+
+    	var words = queryUrl(document.location.href,'words');
+        var isIndex;
+        var isRef = !!document.referrer;
+        var isShare = isRef;
+        var isCreate = !isRef;
+        var href = 'http://localhost/ref.html';
+
+        if(href === location.href){
+        	isIndex = true;
+        }else{
+        	isIndex = false;
+        }
+        isIndex = !!words ? false : true;
+
+        if(isIndex){
+        	$(".wish").show();
+			$(".words").show();
+			$("#first").hide();
+			$('.first-click').hide();
+			// alert('首页');
+        }else{
+        	if(isShare){
+	        $(".wish").hide();
+			$(".words").hide();
+			$("#first").hide();
+			$('.first-click').show();
+			// alert('分享');
+	        }
+	        if(isCreate){
+	        $(".wish").hide();
+			$(".words").hide();
+			$("#first").show();
+			$('.first-click').hide();
+			// alert('创建');
+	        }
+        }
+        $.getUrlParam = function(name){
+        	var reg	 = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        	var r	 = window.location.search.substr(1).match(reg);
+        	if (r!=null) return unescape(r[2]); return null;
+    	}
+	
+    	var wds = $.getUrlParam('words');
+    	// alert(wds)
+    	// console.log(wds);
+    	if(wds==null){
+    		$(".middle").show()
+    	}
+    })
+</script>
+
+<script>
+		var canvas = document.getElementById("cas");
+		var ocas = document.createElement("canvas");
+		var octx = ocas.getContext("2d");
+		var ctx = canvas.getContext("2d");
+		var countStep = 1;
+		var style = 2;
+		ocas.width = canvas.width = 640;
+		ocas.height = canvas.height = 945;
+		var bigbooms = [];
+	
+		window.onload = function(){
+			var x = getRandom(canvas.width/5 , canvas.width*4/5);
+			var y = getRandom(50 , 200);
+			var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
+			bigbooms.push(bigboom);
+			var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:canvas.width/2 , y:100} , document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
+			bigbooms.push(bigboom);
+			initAnimate()
+		}
+
+		function initAnimate(){
+			//drawBg();
+
+			lastTime = new Date();
+			animate();
+		}
+
+		var lastTime;
+		function animate(){
+			ctx.save();
+			ctx.globalAlpha = 0.6;
+			drawMoon();
+			
+			//ctx.fillStyle = "rgba(0,5,24,0.1)";
+			//ctx.fillRect(0,0,canvas.width,canvas.height);
+			ctx.restore();
+
+
+			var newTime = new Date();
+			
+            /*if(newTime-lastTime>500+(window.innerHeight-767)/2){*/
+            if(newTime-lastTime>7000){//每个礼花之间的间隔时间
+				var random = Math.random()*100>10?true:false;
+				var x = getRandom(canvas.width/5 , canvas.width*4/5);
+				var y = getRandom(50 , 200);
+				if(countStep == 1){
+					var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
+					bigbooms.push(bigboom);
+					var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:canvas.width/2 , y:100} , document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
+					bigbooms.push(bigboom);
+					countStep = 0;
+				}else{
+					var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
+					bigbooms.push(bigboom);
+					var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:canvas.width/2 , y:100} , document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
+					bigbooms.push(bigboom);
+					countStep = 1;
+				}
+				
+				lastTime = newTime;
+				//console.log(bigbooms)
+			}
+
+			stars.foreach(function(){
+				this.paint();
+			})
+
+			//drawMoon();
+
+			bigbooms.foreach(function(index){
+				var that = this;
+				if(!this.dead){
+					this._move();
+					this._drawLight();
+				}
+				else{
+					this.booms.foreach(function(index){
+						if(!this.dead) {
+							this.moveTo(index);
+						}
+						else if(index === that.booms.length-1){
+							bigbooms[bigbooms.indexOf(that)] = null;
+						}
+					})
+				}
+			});
+			
+			raf(animate);
+		}
+
+		function drawMoon(){
+			var moon = document.getElementById("moon");
+			var centerX = canvas.width-200 , centerY = 100 , width = canvas.width , height=canvas.height;
+			if(moon.complete){
+				ctx.drawImage(moon , 0 , 0 , width , height )
+			}
+			else {
+				moon.onload = function(){
+					ctx.drawImage(moon ,0 , 0 , width , height)
+				}
+			}
+		}
+
+		Array.prototype.foreach = function(callback){
+			for(var i=0;i<this.length;i++){
+				if(this[i]!==null) callback.apply(this[i] , [i])
+			}
+		}
+
+		var raf = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) { window.setTimeout(callback, 1000 / 60); };
+ 		
+		//canvas.onclick = function(){
+//			var x = event.clientX;
+//			var y = event.clientY;
+//			var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
+//			bigbooms.push(bigboom)
+//		}
+//
+//		 canvas.addEventLisener("touchstart" , function(event){
+//		 	var touch = event.targetTouches[0];
+//		 	var x = event.pageX;
+//		 	var y = event.pageY;
+//		 	var bigboom = new Boom(getRandom(canvas.width/3,canvas.width*2/3) ,2,"#FFF" , {x:x , y:y});
+//		 	bigbooms.push(bigboom)
+//		 })
+
+		var Boom = function(x,r,c,boomArea,shape){
+			this.booms = [];
+			this.x = x;
+			this.y = (canvas.height+r);
+			this.r = r;
+			this.c = c;
+			this.shape = shape || false;
+			this.boomArea = boomArea;
+			this.theta = 0;
+			this.dead = false;
+			this.ba = parseInt(getRandom(130 , 150));//烟花高度，数字越小位置越高
+		}
+		Boom.prototype = {
+			_paint:function(){
+				ctx.save();
+				ctx.beginPath();
+				ctx.arc(this.x,this.y,this.r,0,2*Math.PI);
+				ctx.fillStyle = this.c;
+				ctx.fill();
+				ctx.restore();
+			},
+			_move:function(){
+				var dx = this.boomArea.x - this.x , dy = this.boomArea.y - this.y;
+				this.x = this.x+dx*0.02;
+				this.y = this.y+dy*0.02;
+
+				if(Math.abs(dx)<=this.ba && Math.abs(dy)<=this.ba){
+					if(this.shape){
+						this._shapBoom();
+					}
+					else this._boom();
+					this.dead = true;
+				}
+				else {
+					this._paint();
+				}
+			},
+			_drawLight:function(){
+				ctx.save();
+				ctx.fillStyle = "rgba(255,228,150,0.3)";
+				ctx.beginPath();
+				ctx.arc(this.x , this.y , this.r+3*Math.random()+1 , 0 , 2*Math.PI);
+				ctx.fill();
+				ctx.restore();
+			},
+			_boom:function(){
+				var fragNum = getRandom(200 , 250);//烟花颗粒数
+				var color;
+				if(style===1){
+					color = {
+						a:parseInt(getRandom(128,255)),
+						b:parseInt(getRandom(128,255)),
+						c:parseInt(getRandom(128,255))
+					}
+				}
+
+				var fanwei = parseInt(getRandom(400, 500));//烟花范围大小
+				for(var i=0;i<fragNum;i++){
+					if(style===2){
+						color = {
+							a:parseInt(getRandom(128,255)),
+							b:parseInt(getRandom(128,255)),
+							c:parseInt(getRandom(128,255))
+						}
+					}
+					var a = getRandom(-Math.PI, Math.PI);
+					var x = getRandom(0, fanwei) * Math.cos(a) + this.x;
+					var y = getRandom(0, fanwei) * Math.sin(a) + this.y; 
+					var radius = getRandom(0 , 6)//礼花点大小
+					var frag = new Frag(this.x , this.y , radius , color , x , y );
+					this.booms.push(frag);
+				}
+				if(style===1){
+					style=2;
+				}
+				else{
+					style=1;	
+				}
+			},
+			_shapBoom:function(){
+				var that = this;
+				putValue(ocas , octx , this.shape , 3, function(dots){
+					var dx = canvas.width/2-that.x;
+					var dy = canvas.height/2-that.y;
+					for(var i=0;i<dots.length;i++){
+						color = {a:dots[i].a,b:dots[i].b,c:dots[i].c}
+						var x = dots[i].x;
+						var y = dots[i].y;
+						var radius = 1;
+						var frag = new Frag(that.x , that.y , radius , color , x-dx , y-dy);
+						that.booms.push(frag);
+					}
+				})
+			}
+		}
+
+		function putValue(canvas , context , ele , dr , callback){
+			context.clearRect(0,0,canvas.width,canvas.height);
+			var img = new Image();
+			if(ele.innerHTML.indexOf("img")>=0){
+				img.src = ele.getElementsByTagName("img")[0].src;
+				imgload(img , function(){
+					context.drawImage(img , canvas.width/2 - img.width/2 , canvas.height/2 - img.width/2);
+					dots = getimgData(canvas , context , dr);
+					callback(dots);
+				})
+			}
+			else {
+				var text = ele.innerHTML;
+				context.save();
+				var fontSize =90;
+				context.font = fontSize+"px 微软雅黑";
+				context.textAlign = "center";
+				context.textBaseline = "middle";
+				context.fillStyle = "rgba(215,78,206 , 1)";
+				context.fillText(text , canvas.width/2 , canvas.height/2);
+				context.restore();
+				dots = getimgData(canvas , context , dr);
+				callback(dots);
+			}
+		}
+
+		function imgload(img , callback){
+			if(img.complete){
+				callback.call(img);
+			}
+			else {
+				img.onload = function(){
+					callback.call(this);
+				}
+			}
+		}
+
+		function getimgData(canvas , context , dr){
+			var imgData = context.getImageData(0,0,canvas.width , canvas.height);
+			context.clearRect(0,0,canvas.width , canvas.height);
+			var dots = [];
+			for(var x=0;x<imgData.width;x+=dr){
+				for(var y=0;y<imgData.height;y+=dr){
+					var i = (y*imgData.width + x)*4;
+					if(imgData.data[i+3] > 128){
+						var dot = {x:x , y:y , a:imgData.data[i] , b:imgData.data[i+1] , c:imgData.data[i+2]};
+						dots.push(dot);
+					}
+				}
+			}
+			return dots;
+		}
+
+		function getRandom(a , b){
+			return Math.random()*(b-a)+a;
+		}
+
+
+		var maxRadius = 1 , stars=[];
+		function drawBg(){
+			for(var i=0;i<100;i++){
+				var r = Math.random()*maxRadius;
+				var x = Math.random()*canvas.width;
+				var y = Math.random()*2*canvas.height - canvas.height;
+				var star = new Star(x , y , r);
+				stars.push(star);
+				star.paint()
+			}
+
+		}
+
+		var Star = function(x,y,r){
+			this.x = x;this.y=y;this.r=r;
+		}
+		Star.prototype = {
+			paint:function(){
+				ctx.save();
+				ctx.beginPath();
+				ctx.arc(this.x , this.y , this.r , 0 , 2*Math.PI);
+				ctx.fillStyle = "rgba(255,255,255,"+this.r+")";
+				ctx.fill();
+				ctx.restore();
+			}
+		}
+
+		var focallength = 250;
+		var Frag = function(centerX , centerY , radius , color ,tx , ty){
+			this.tx = tx;
+			this.ty = ty;
+			this.x = centerX;
+			this.y = centerY;
+			this.dead = false;
+			this.centerX = centerX;
+			this.centerY = centerY;
+			this.radius = radius;
+			this.color = color;
+		}
+
+		Frag.prototype = {
+			paint:function(){
+				ctx.save();
+				ctx.beginPath();
+				ctx.arc(this.x , this.y , this.radius , 0 , 2*Math.PI);
+				ctx.fillStyle = "rgba("+this.color.a+","+this.color.b+","+this.color.c+",1)";
+				ctx.fill()
+				ctx.restore();
+			},
+			moveTo:function(index){
+				this.ty = this.ty+0.3;
+				var dx = this.tx - this.x , dy = this.ty - this.y;
+				this.x = Math.abs(dx)<0.1 ? this.tx : (this.x+dx*0.1);
+				this.y = Math.abs(dy)<0.1 ? this.ty : (this.y+dy*0.1);
+				if(dx===0 && Math.abs(dy)<=80){
+					this.dead = true;
+				}
+				this.paint();
+			}
+		}
+	</script>
+    <script>
+var isWX =  navigator.userAgent.indexOf('MicroMessenger') !== -1;
+window.shareData = {
+	image : "http://fire.weixinapply.com/public/image/xiaotu.jpg",
+	link: document.location.href,
+	title: getRanomTitle(),
+	content: "填写朋友名字活祝福语，为TA送上独一无二的微信祝福，更有机会赢取礼物。"
+};
+function getRanomTitle(){
+	var words =	queryUrl(document.location.href,'words') || '';
+	words = !!words ? (words + '—我为你定制了一款新年祝福祝福，赶快来看看。') : 'DIY独一无二新年祝福烟花，赶快来试试';
+	return words;
+};
+function setShareData(title, link, img){
+	var id = link.match(/\/(\d+)$/);
+	if(id){
+		id = id[1];
+	}else{
+		id = '';
+	};
+	window.shareData.image = img;
+	window.shareData.link = getRandomPath(id);
+	window.shareData.title = title + getRanomTitle();
+}
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+	WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+		WeixinJSBridge.invoke('sendAppMessage', {
+			"img_url": shareData.image,
+			"link": shareData.link,
+			"desc": shareData.content,
+			"title": shareData.title
+		}, function(res) {
+			window.location.href = shareData.link;
+		})
+	});
+
+	WeixinJSBridge.on('menu:share:timeline', function(argv) {
+		WeixinJSBridge.invoke('shareTimeline', {
+			"img_url": window.shareData.image,
+			"img_width": "480",
+			"img_height": "480",
+			"link": shareData.link,
+			"desc": shareData.content,
+			"title": shareData.title
+		}, function(res) {
+			window.location.href = shareData.link;
+		});
+	});
+	WeixinJSBridge.on('menu:share:weibo', function(argv) {
+		WeixinJSBridge.invoke('shareWeibo', {
+			"content": shareData.title,
+			"url": window.shareData.link
+		}, function(res) {
+			window.location.href = shareData.link;
+		});
+	});
+}, false);
+
+if(top.location!=self.location){top.location = self.location};
+</script>
+</body>
+</html>
